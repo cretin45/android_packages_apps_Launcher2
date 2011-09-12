@@ -280,9 +280,9 @@ public class AllApps3D extends RSSurfaceView
 
         if (sRollo.mUniformAlloc != null) {
             float tf[] = new float[] {72.f, 72.f,
-                                      120.f, 120.f, 0.f, 0.f,
-                                      120.f, 680.f,
-                                      (2.f / 480.f), 0, -((float)w / 2) - 0.25f, -380.25f};
+                                      135.f, 135.f, 0.f, 0.f,
+                                      135.f, 780.f,
+                                      (2.f / 540.f), 0, -((float)w / 2) - 0.25f, -420.25f};
             if (w > h) {
                 tf[6] = 40.f;
                 tf[7] = h - 40.f;
@@ -540,7 +540,7 @@ public class AllApps3D extends RSSurfaceView
 
         int x = 0;
         // TODO: Put this in a config file/define
-        int columnWidth = 120;
+        int columnWidth = 135;
         for (int i = 0; i < mColumnsPerPage + 1; i++) {
             mTouchXBorders[i] = x - viewPos[0];
             x += columnWidth;

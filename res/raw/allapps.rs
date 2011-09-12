@@ -285,7 +285,7 @@ void drawFrontGrid(float rowOffset, float p)
 
     int intRowOffset = rowOffset;
     float rowFrac = rowOffset - intRowOffset;
-    float colWidth = 120.f;//getWidth() / 4;
+    float colWidth = 135.f;//getWidth() / 4;
     float rowHeight = colWidth + 25.f;
     float yoff = 0.5f * h + 1.5f * rowHeight;
 
