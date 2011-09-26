@@ -1039,7 +1039,7 @@ public class AllApps3D extends RSSurfaceView
         private Bitmap mSelectionBitmap;
         private Canvas mSelectionCanvas;
         
-        private float mScrollPos;        
+        private float mScrollPos;
 
         Params mParams;
         State mState;
